@@ -1,0 +1,203 @@
+<!-- this is the index file with the basic structure / markup of the landing page -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Landing Page</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Start of Container -->
+    <div class="Container">
+      <!-- Start of TOP -->
+      <div class="top">
+        <img
+          id="left"
+          src="images2/codecademy.png"
+          alt="Codecademy Logo"
+          height="125px"
+          width="130px"
+        />
+        <h3>Log In</h3>
+        <img id="right" src="images/menu (1).png" alt="Menu Button" />
+      </div>
+      <!-- End of TOP -->
+      <!-- Start of Main Tag -->
+      <div class="mainTag">
+        <h2>
+          Join the millions learning to code<br />with Codecademy for free
+        </h2>
+      </div>
+      <!-- End of main tag -->
+      <!-- Start of main Page -->
+      <div class="mainPage">
+        <img
+          id="profile"
+          src="images/profile.jpg"
+          alt="profile"
+          height="25%"
+          width="35%"
+        />
+        <form id="signIn">
+          <label class="pageEmail" for="pageEmail">Email</label>
+          <input type="email" id="pageEmail" />
+          <label class="pagePassword" for="pagePassword">Password</label>
+          <img
+            id="info"
+            src="images/info.png"
+            alt="infoSymbol"
+            height="20px"
+            width="20px"
+          />
+          <input type="password" id="pagePassword" />
+          <button type="submit">Sign up</button>
+        </form>
+        <h4 id="policy">
+          By signing up for Codecademy, you agree to Codecademy's<br />
+          <a href="https://www.codecademy.com/terms">Terms of Service</a> &amp; <a href="https://www.codecademy.com/policy">Privacy Policy.</a>
+        </h4>
+        <br />
+        <h4 id="or">Or sign up using:</h4>
+        <br />
+        <!-- flex container starts -->
+        <div class="flex-container">
+          <img id="box1" src="images2/google.png" alt="googleLogo" />
+          <img id="box2" src="images2/facebook-logo-2019.png" alt="fbLogo" />
+          <img id="box3" src="images2/linkedin.png" alt="linkedInLogo" />
+          <img id="box4" src="images2/github.png" alt="githubLogo" />
+          <img id="box5" src="images2/apple.png" alt="appleLogo" />
+        </div>
+        <!-- flex container ends -->
+      </div>
+      <!-- end of main page -->
+    </div>
+    <!-- Container ends here -->
+
+    <hr class="hr">
+
+
+    <!-- start of grid-container -->
+    <section class="grid-container">
+
+      <!-- start of learning -->
+      <div id="learning">
+        <h3>Start Learning</h3>
+        <h2>Popular Courses</h2>
+      </div>
+      <!-- end of learning -->
+      <br>
+
+      <h3 class="bar" id="free">Free</h3>
+
+      <img class="bar" id="dropdown" src="images/dropdown.png">
+
+      <!-- start of courses -->
+      <div class="courses"> 
+        
+        <!-- start of courseBox1 -->
+        <div class="courseBox1">
+          <a href="https://www.codecademy.com/learn/intro-to-chatgpt" style="text-decoration: none; color: black;"><h2>Free Course</h2>
+          <h3>Intro to ChatGPT</h3>
+          <p>Learn about ChatGPT, one of the most advanced AI systems available today, and dive into the world of Generative AI.</p>
+          <hr id="hr">
+          <img id="trending-up" src="images/trending-up.png" alt="trending-up symbol">
+          <p id="stage"><b>Beginner</b> Friendly</p>
+          <p class="difficulty">7 lessons</p></a>
+        </div>
+        <!-- end of courseBox1 -->
+
+        <!-- start of courseBox2 -->
+        <div class="courseBox2">
+          <a href="https://www.codecademy.com/learn/learn-html" style="text-decoration: none; color: black;"><h2>Free Course</h2>
+          <h3>Learn HTML</h3>
+          <p>Start at the beginning by learning HTML basics — an important foundation for building and editing web pages.</p>
+          <hr id="hr">
+          <img id="trending-up" src="images/trending-up.png" alt="trending-up symbol">
+          <p id="stage"><b>Beginner</b> Friendly</p>
+          <p class="difficulty">6 lessons</p></a>
+        </div>
+        <!-- end of courseBox2 -->
+
+        <!-- start of courseBox3 -->
+        <div class="courseBox3">
+          <a href="https://www.codecademy.com/learn/introduction-to-javascript" style="text-decoration: none; color: black;"><h2>Free Course</h2>
+          <h3>Learn JavaScript</h3>
+          <p>Learn how to use JavaScript — a powerful and flexible programming language for adding website interactivity.</p>
+          <hr id="hr">
+          <img id="trending-up" src="images/trending-up.png" alt="trending-up symbol">
+          <p id="stage"><b>Beginner</b> Friendly</p>
+          <p class="difficulty">11 lessons</p></a>
+        </div>
+        <!-- end of courseBox3 -->
+
+        <!-- start of courseBox4 -->
+        <div class="courseBox4">
+          <a href="https://www.codecademy.com/learn/learn-sql" style="text-decoration: none; color: black;"><h2>Free Course</h2>
+          <h3>Learn SQL</h3>
+          <p>In this SQL course, you’ll learn how to manage large datasets and analyze real data using the standard data management language.</p>
+          <hr id="hr">
+          <img id="trending-up" src="images/trending-up.png" alt="trending-up symbol">
+          <p id="stage"><b>Beginner</b> Friendly</p>
+          <p class="difficulty">4 lessons</p></a>
+        </div>
+        <!-- end of courseBox4 -->
+
+      </div>
+      <!-- end of courses -->
+
+      <div id="exploreLink">
+        <a href="https://www.codecademy.com/catalog" style="text-decoration: none; color: black;"><button type="submit" id="explore">Explore full catalog</button></a>
+      </div>
+
+    </section>
+    <!-- End of grid-container --> 
+
+    <hr class="hr">
+
+    <!-- Footer starts here -->
+    <footer>
+      <span id="copyright">&copy; Asritha Nibhanupudi <span> | </span> &copy; CodeCademy <br></span>
+      <!-- Footer container starts -->
+      <div class="footer-container">
+        <a href="https://iconscout.com/icons/codecademy" target="_blank"
+          >Free Codecademy Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on
+        <a href="https://iconscout.com">IconScout</a><span> |</span>
+        <a href="https://iconscout.com/icons/google" target="_blank"
+          >Free Google Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/trickydesign">Abdul Abid</a><span> |</span>
+        on <a href="https://iconscout.com">IconScout</a>
+        <a href="https://iconscout.com/icons/facebook-logo-2019" target="_blank"
+          >Free Facebook logo 2019 Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on
+        <a href="https://iconscout.com">IconScout</a><span> |</span>
+        <a href="https://iconscout.com/icons/linkedin" target="_blank"
+          >Free Linkedin Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/icon-mafia" target="_blank"
+          >Icon Mafia</a><span> |</span>
+        <a href="https://iconscout.com/icons/github" target="_blank"
+          >Free Github Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/unicons" target="_blank"
+          >Unicons Font</a><span> |</span>
+        <a href="https://iconscout.com/icons/apple" target="_blank"
+          >Free Apple Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/icon-mafia" target="_blank"
+          >Icon Mafia</a>
+      </div>
+      <!-- footer container ends here -->
+    </footer>
+    <!-- footer ends here -->
+  </body>
+</html>
