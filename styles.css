@@ -1,0 +1,397 @@
+/* this is a CSS file linked to the index file uses for styling the elements */
+
+* {
+  font-family: sans-serif, Helvetica, Suisse, Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  background-color: papayawhip;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#left {
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+#pageEmail,
+#pagePassword {
+  background-color: white;
+  margin: 7px;
+  padding: 4px;
+  border-radius: 4px;
+  height: 40px;
+  width: 400px;
+  display: block;
+  border: solid 1px grey;
+  font-size: 16px;
+}
+
+#pageEmail {
+  margin-bottom: 10px;
+}
+
+#pagePassword {
+  margin-bottom: 15px;
+  margin-top: -3px;
+}
+
+form {
+  float: right;
+  display: inline-block;
+  clear: right;
+  margin-right: 70px;
+}
+
+#right,
+.mainPage h4,
+#info {
+  float: right;
+  clear: center;
+}
+
+.top,
+.mainTag {
+  display: inline;
+}
+
+form button {
+  height: 40px;
+  width: 410px;
+  margin: 7px;
+  padding: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid grey;
+  display: block;
+  float: right;
+  margin-top: 15px;
+}
+
+#info {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#info,
+.pagePassword {
+  display: inline-block;
+}
+
+.pageEmail,
+.pagePassword {
+  margin-left: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5 {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.flex-container {
+  width: 400px;
+  display: inline-flex;
+  flex-direction: row;
+  clear: right;
+  float: right;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 93px;
+  margin-top: -13px;
+  margin-bottom: 50px;
+}
+
+.top h3 {
+  float: right;
+  margin-right: 85px;
+  margin-top: 45px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#right {
+  margin-right: -85px;
+  margin-top: 42px;
+  display: inline-block;
+  height: 20px;
+  width: 25px;
+}
+
+.mainTag {
+  float: right;
+  margin-top: 90px;
+  margin-right: -20px;
+}
+
+.mainPage #profile {
+  float: left;
+  clear: left;
+  margin-left: 130px;
+  margin-top: 80px;
+  box-shadow: -20px 20px black;
+  border: 1px solid black;
+}
+
+#copyright {
+  font-size: 9px;
+  font-weight: bolder;
+  color: lightslategrey;
+  margin-left: 43%;
+}
+
+.footer-container {
+  clear: both;
+  display: inline;
+  font-size: 7px;
+  margin-left: 140px;
+  color: grey;
+}
+
+footer span {
+  font-weight: bolder;
+}
+
+footer a {
+  color: grey;
+}
+
+#policy,
+#or {
+  display: block;
+  float: right;
+  clear: right;
+  margin-right: 30px;
+}
+
+#policy {
+  font-size: 13px;
+  font-weight: normal;
+  margin-right: 143px;
+}
+
+#or {
+  font-size: 16px;
+  margin-right: 355px; 
+  margin-top: -3px;
+}
+
+section {
+  background-color: black;
+  background-size: cover;
+  margin: 0 -9999rem;
+  padding: 0.25rem 9999rem;
+  display: inline-grid;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px 500px 500px;
+  grid-template-rows: 150px 30px 820px;
+  align-content: center;
+}
+
+#learning {
+  grid-column: 1/5;
+}
+
+#learning h3 {
+  font-size: 17px;
+  font-family: monospace;
+  font-weight: normal;
+  margin-left: 495px;
+  margin-top: 40px;
+}
+
+#learning h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 410px;
+  margin-top: -15px;
+}
+
+#free {
+  grid-column: 5/6;
+  clear: left;
+  margin-left: -1930px;
+  margin-top: -5px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+#dropdown {
+  height: 25px;
+  width: 25px;
+  grid-column: 7/8;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  margin-left: -980px;
+}
+
+#hr {
+  border-top: 1px dashed black;
+  height: 0.5px;
+  border-bottom: 1px solid white;
+  margin-top: 140px;
+  width: 430px;
+  margin-bottom: -5px;
+}
+
+.courses h2 {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: normal;
+  border: 1px solid yellowgreen;
+  background-color: yellowgreen;
+  opacity: 70%;
+  margin-top: -15.5px;
+  margin-left: -16px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 448px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  color: black;
+}
+
+.hr {
+  clear: both;
+  opacity: 0%;
+}
+
+.courseBox1, .courseBox2, .courseBox3, .courseBox4 {
+  margin-top: 20px;
+  color: black;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: white;
+  padding: 15px;
+  justify-content: center;
+}
+
+.courseBox1 {
+  clear: left;
+  margin-left: 70px;
+  margin-top: 40px;
+  width: 430px;
+  height: 270px;
+  transition: transform 500ms;
+}
+
+.courseBox1:hover {
+  transform: translate(8px, -8px);
+}
+
+.courseBox1 p {
+  font-size: 14px;
+  font-weight: normal;
+  word-spacing: 1.5px;
+}
+
+.courseBox2 {
+  clear: left;
+  margin-left: 580px;
+  margin-top: -301px;
+  width: 430px;
+  height: 270px;
+  transition: transform 500ms;
+}
+
+.courseBox2:hover {
+  transform: translate(8px, -8px);
+}
+
+.courseBox2 p {
+  font-size: 14px;
+  font-weight: normal;
+  word-spacing: 1.5px;
+}
+
+.courseBox3 {
+  clear: left;
+  margin-left: 70px;
+  margin-top: 50px;
+  width: 430px;
+  height: 270px;
+  transition: transform 500ms;
+}
+
+.courseBox3:hover {
+  transform: translate(8px, -8px);
+}
+
+.courseBox3 p {
+  font-size: 14px;
+  font-weight: normal;
+  word-spacing: 1.5px;
+}
+
+.courseBox4 {
+  clear: left;
+  margin-left: 580px;
+  margin-top: -302px;
+  width: 430px;
+  height: 270px;
+  transition: transform 500ms;
+}
+
+.courseBox4:hover {
+  transform: translate(8px, -8px);
+}
+
+.courseBox4 p {
+  font-size: 14px;
+  font-weight: normal;
+  word-spacing: 1.5px;
+}
+
+.difficulty {
+  margin-top: -30px;
+  margin-left: 360px;
+}
+
+#explore {
+  background-color: goldenrod;
+  color: black;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+  width: 210px;
+}
+
+#exploreLink {
+  margin-top: 730px;
+  margin-left: -65px;
+}
+
+#trending-up {
+  height: 20px;
+  width: 20px;
+  margin-top: 13px;
+}
+
+#stage {
+  margin-top: -23px;
+  margin-left: 30px;
+}
